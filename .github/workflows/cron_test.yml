@@ -3,7 +3,7 @@ name: cron_test
 #    - cron: "0/20 1-23 * * *"    #runs at 11:30 UTC everyday
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
 
 
 
