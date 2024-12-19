@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 * * * *"    #runs at 11:30 UTC everyday
 
+
+permissions:
+  contents: write  # Allow repository access
+
 jobs:
   getdataandrefreshmap:
     runs-on: ubuntu-latest
