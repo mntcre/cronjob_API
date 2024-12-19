@@ -1,6 +1,7 @@
 name: cron_test
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 * * * *"    #runs at 11:30 UTC everyday
 
