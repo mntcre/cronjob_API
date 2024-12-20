@@ -25,7 +25,7 @@ logtext = f'''Log-{dt} \n
 Test Output \n 
 ----------------------------------\n'''
 
-with open(script_dir + "\\logfile.txt", "a") as output:
+with open(script_dir + "/logfile.txt", "a") as output:
     output.write(logtext)
 
 
